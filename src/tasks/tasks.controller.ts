@@ -8,7 +8,6 @@ import {
   Patch,
   Query
 } from '@nestjs/common';
-import { query } from 'express';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
 import { Task, TaskStatus } from './task.model';
@@ -20,8 +19,6 @@ export class TasksController {
 
   @Get()
   getTasks(@Query() filterData: GetTasksFilterDto): Task[] {
-    //If we have any filters defined, call tasksService.getTaskWithFilters()
-    //otherwise, get all the tasks
     if(Object.keys(filterData).length){
       return this.tasksService.getTasksWithFilters(filterData);
     } else {
