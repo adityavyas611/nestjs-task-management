@@ -741,10 +741,10 @@
   dependencies:
     tslib "2.4.0"
 
-"@nestjs/typeorm@^9.0.1":
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-9.0.1.tgz#f78bfc00e71731ea860288e4a03830107daf3d9c"
-  integrity sha512-A2BgLIPsMtmMI0bPKEf4bmzgFPsnvHqNBx3KkvaJ7hJrBQy0OqYOb+Rr06ifblKWDWS2tUPNrAFQbZjtk3PI+g==
+"@nestjs/typeorm@^9.0.0-next.2":
+  version "9.0.0-next.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-9.0.0-next.2.tgz#657cdb908200656541e7e8089e1640ac049ab79c"
+  integrity sha512-2sb4fHH21SBCOrwvv9hyamUCgAc23eXA+/uyAeu7/VhOUnce8Iw7apNJQKK5PxbBWOCC4vXoIc5P8sDML5yNGA==
   dependencies:
     uuid "8.3.2"
 

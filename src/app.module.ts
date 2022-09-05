@@ -14,4 +14,5 @@ import { TasksModule } from './tasks/tasks.module';
     synchronize: true
   })],
 })
+
 export class AppModule {}
